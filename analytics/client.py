@@ -9,14 +9,14 @@ from six import string_types
 from analytics.utils import guess_timezone, clean
 from analytics.consumer import Consumer
 from analytics.version import VERSION
-
+import uuid
 try:
     import queue
 except:
     import Queue as queue
 
 
-ID_TYPES = (numbers.Number, string_types)
+ID_TYPES = (numbers.Number, string_types, type(uuid.uuid4()))
 
 
 class Client(object):
