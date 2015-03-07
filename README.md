@@ -1,6 +1,8 @@
 ﻿analytics-python
 ==============
 
+Branched to allow uuid support for user primary key
+
 [![Build Status](https://travis-ci.org/segmentio/analytics-python.svg?branch=master)](https://travis-ci.org/segmentio/analytics-python)
 
 analytics-python is a python client for [Segment](https://segment.com)
